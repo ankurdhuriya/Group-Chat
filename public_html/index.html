@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title> CHAT USING SOCKETS!</title>
+    <script src="js/jquery.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+
+    <style>
+        body{
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background-color: lightyellow;
+        }
+
+        #outer{
+            background-color: #fe8c84;
+            padding : 15px;
+            width: 50%;
+            margin-left: 25%;
+            margin-top: 25px;
+            box-shadow: #000000 3px 5px 7px;
+            border-radius: 8px;
+        }
+
+        #chatmessage{
+            width:77%;
+        }
+
+    </style>
+</head>
+<!--
+    AUTHOR : ANKUR DHURIYA
+    DATE   : 
+    VERSION: 1.0
+    PROJECT: NODE JS GROUP CHAT
+ -->
+<body>
+
+<div id = "outer">
+    <input type="text" id="chatmessage" >
+    <button id="submitchat">SEND</button>
+    <button id="CLEAR">CLEAR</button>
+    <br>
+    <div id="chatbox">
+
+    </div>
+</div>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
