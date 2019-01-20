@@ -1,0 +1,4 @@
+npm (node package manager)
+socket.io
+Express
+MySQL
